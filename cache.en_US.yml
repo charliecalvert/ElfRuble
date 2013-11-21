@@ -108,6 +108,18 @@ children:
   scope: null
   tags: [Web]
   type: WEB
+- !!com.aptana.scripting.model.ProjectTemplateElement
+  customProperties: {replace_parameters: true}
+  description: description
+  displayName: AngularKarma
+  icon: templates/Elf64.png
+  id: AngularKarma
+  location: templates/AngularKarma.zip
+  path: templates\templates.rb
+  priority: 0
+  scope: null
+  tags: [Web]
+  type: WEB
 - !!com.aptana.scripting.model.ProjectSampleElement
   category: com.aptana.projects.samples.web.category
   customProperties: null

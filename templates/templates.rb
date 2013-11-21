@@ -26,3 +26,12 @@ project_template 'AngularMongoBootstrapTest' do |t|
   t.icon = "templates/Elf64.png"
   t.replace_parameters = true
 end
+
+project_template 'AngularKarma' do |t|
+  t.type = :web
+  t.tags = ['Web']
+  t.location = 'templates/AngularKarma.zip'
+  t.description = 'description'
+  t.icon = "templates/Elf64.png"
+  t.replace_parameters = true
+end
