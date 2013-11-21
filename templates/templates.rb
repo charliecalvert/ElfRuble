@@ -17,3 +17,12 @@ end
 
 # Use Commands > Bundle Development > Insert Bundle Section > File Template and Project Template
 # to easily add new sections
+
+project_template 'AngularMongoBootstrapTest' do |t|
+  t.type = :web
+  t.tags = ['Web']
+  t.location = 'templates/AngularMongoBootstrapTest.zip'
+  t.description = 'description'
+  t.icon = "templates/Elf64.png"
+  t.replace_parameters = true
+end
