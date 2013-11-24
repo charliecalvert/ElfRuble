@@ -2,9 +2,9 @@ require 'ruble'
 
 bundle do |bundle|
   bundle.display_name = 'ElfRuble'
-  bundle.author = 'My Name'
+  bundle.author = 'Charlie Calvert'
   bundle.copyright = <<END
-(c) Copyright 2011 sample.org. Distributed under MIT license.
+(c) Copyright 2013 Elvenware.com. Distributed under MIT license.
 END
 
   bundle.description = <<END
