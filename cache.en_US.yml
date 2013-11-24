@@ -85,6 +85,270 @@ children:
   async: false
   category: null
   customProperties:
+    prefix_values: [cscJQueryCDN]
+  description: null
+  displayName: csc jQuery CDN
+  expansion: <script src='http://code.jquery.com/jquery.js'></script>
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snipjs.rb
+  runType: current_thread
+  scope: source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [cscJQueryMinCDN]
+  description: null
+  displayName: csc jQueryMin CDN
+  expansion: <script src='http://code.jquery.com/jquery.min.js'></script>
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snipjs.rb
+  runType: current_thread
+  scope: source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [cscAngular1.07CDN]
+  description: null
+  displayName: csc Angular CDN
+  expansion: <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.js'></script>
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snipjs.rb
+  runType: current_thread
+  scope: source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [cscJqDocReady]
+  description: null
+  displayName: csc jQuery Document Ready
+  expansion: "\\$(document).ready(function() {\n  \"use strict\";\n});"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snipjs.rb
+  runType: current_thread
+  scope: source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [cscjsHintBasics]
+  description: null
+  displayName: csc jshint basic
+  expansion: '/*jshint devel: true, browser: true, jquery: true, strict: true */'
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snipjs.rb
+  runType: current_thread
+  scope: source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [cscRadioButtons]
+  description: null
+  displayName: csc RadioButtons
+  expansion: "<section id=\"mainGroups\">\n<ul>\n    <li>\n        <input type=\"\
+    radio\" name=\"mainGroup\" id=\"rbPage01\">\n        <label for=\"walk\">Page01</label></li>\n\
+    \    <li>\n        <input type=\"radio\" name=\"mainGroup\" id=\"rbPage02\">\n\
+    \        <label for=\"drive\">Page02</label></li>\n    <li>\n        <input type=\"\
+    radio\" name=\"mainGroup\" id=\"rbPage03\">\n        <label for=\"fly\">Page03</label></li>\n\
+    </ul>\n</section>"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snipjs.rb
+  runType: current_thread
+  scope: source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [cscCheckFileSupport]
+  description: null
+  displayName: csc checkFileSupprt
+  expansion: "// Confirm File API support.\n    function checkFileSupport() {\n  \
+    \      if (window.File && window.FileReader && window.FileList && window.Blob)\
+    \ {\n            console.log(\"CSC: File APIs supported\");\n        } else {\n\
+    \            console.log(\"CSC: File APIs not fully supported.\");\n        }\n\
+    \    }"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snipjs.rb
+  runType: current_thread
+  scope: source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [cscHandleImage]
+  description: null
+  displayName: csc HandleImage
+  expansion: "function(fileObject) {\n        console.log(\"csc: handleImage called:\
+    \ \" + fileObject);\n\n        handleFileSelect(fileObject);\n\n        var reader\
+    \ = new FileReader();\n\n        // Closure to capture the file information.\n\
+    \        reader.onload = (function(theFile) {\n            return function(e)\
+    \ {\n                console.log(\"csc: In onload function.\");\n            \
+    \    var span = document.createElement(\"span\");\n                span.innerHTML\
+    \ = \"\";\n                document.getElementById(\"list\").insertBefore(span,\
+    \ null);\n            };\n        })(fileObject);\n\n        console.log(\"csc:\
+    \ about to call readAsDataURL\");\n        reader.readAsDataURL(fileObject);\n\
+    \        console.log(\"csc: reader call done.\");\n    };"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snipjs.rb
+  runType: current_thread
+  scope: source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [cscHandleFileSelect]
+  description: null
+  displayName: csc handleFileSelect
+  expansion: "FileSupport.prototype.handleFileSelect = function(event) {\n       \
+    \ // Handle to selected file objects\n        var files = event.target.files;\n\
+    \        \n        // Create array\n        var displayTable = ['<tr><th>Name</th><th>Date</th><th>Type</th><th>Size</th>'];\n\
+    \        \n        for (var i = 0; i < files.length; i++) {\n            var fileObject\
+    \ = files[i];\n            \n            displayTable.push(\n                '<tr><td>',\
+    \ encodeURIComponent(fileObject.name), '</td>',\n                '<td>', fileObject.lastModifiedDate\
+    \ ? fileObject.lastModifiedDate.toLocaleDateString() : 'n/a', '</td>', \n    \
+    \            '<td>', fileObject.type || 'n/a', '</td>',                      \
+    \        \n                '<td>', fileObject.size, '</td></tr>');\n        }\n\
+    \        var table = '<table border=1>' + displayTable.join('') + '</table>';\n\
+    \        $('#list').html(table);        \n    };"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snipjs.rb
+  runType: current_thread
+  scope: source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [cscAjaxWritePost]
+  description: null
+  displayName: csc ajaxWritePost
+  expansion: "var data = { details: 'presidents', data: JSON.stringify(presidentsList)\
+    \ };\n    $.ajax(\n    {\n      type: 'POST',\n      url: '/savePresidents',\n\
+    \      dataType: 'json',\n      cache: 'False',\n      data: data, \n      success:\
+    \ function(data) {\n        display.showDebug(data.result);\n      },\n      error:\
+    \ display.showError      \n    });"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snipjs.rb
+  runType: current_thread
+  scope: source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [cscAjaxWriteGet]
+  description: null
+  displayName: csc ajaxWriteGet
+  expansion: "var data = { details: 'presidents', data: JSON.stringify(presidentsList)\
+    \ };\n    $.ajax(\n    {\n      type: 'GET',\n      url: '/savePresidents',\n\
+    \      dataType: 'json',\n      cache: 'False',\n      data: data, \n      success:\
+    \ function(data) {\n        display.showDebug(data.result);\n      },\n      error:\
+    \ display.showError      \n    });"
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snipjs.rb
+  runType: current_thread
+  scope: source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
+    prefix_values: [cscParagraphID]
+  description: null
+  displayName: csc Paragraph ID
+  expansion: <p id=''> </p>
+  iconPath: null
+  input: [none]
+  inputPath: null
+  keyBindingMap: null
+  outputPath: null
+  outputType: insert_as_snippet
+  path: snippets\snipjs.rb
+  runType: current_thread
+  scope: source.js
+  tags: *id001
+  workingDirectoryType: UNDEFINED
+- !!com.aptana.scripting.model.SnippetElement
+  async: false
+  category: null
+  customProperties:
     prefix_values: [cscJasmineBoilderPlate]
   description: null
   displayName: csc Jasmine Boilerplate
