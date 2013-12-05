@@ -484,6 +484,30 @@ children:
   scope: null
   tags: [Web]
   type: WEB
+- !!com.aptana.scripting.model.ProjectTemplateElement
+  customProperties: {replace_parameters: true}
+  description: description
+  displayName: AngularCalculator
+  icon: templates/Elf64.png
+  id: AngularCalculator
+  location: templates/AngularCalculator.zip
+  path: templates\templates.rb
+  priority: 0
+  scope: null
+  tags: [Web]
+  type: WEB
+- !!com.aptana.scripting.model.ProjectTemplateElement
+  customProperties: {replace_parameters: true}
+  description: description
+  displayName: JsonFromServer
+  icon: templates/Elf64.png
+  id: JsonFromServer
+  location: templates/JsonFromServer.zip
+  path: templates\templates.rb
+  priority: 0
+  scope: null
+  tags: [Web]
+  type: WEB
 - !!com.aptana.scripting.model.ProjectSampleElement
   category: com.aptana.projects.samples.web.category
   customProperties: null

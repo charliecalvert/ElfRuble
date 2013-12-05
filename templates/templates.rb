@@ -35,3 +35,21 @@ project_template 'AngularKarma' do |t|
   t.icon = "templates/Elf64.png"
   t.replace_parameters = true
 end
+
+project_template 'AngularCalculator' do |t|
+  t.type = :web
+  t.tags = ['Web']
+  t.location = 'templates/AngularCalculator.zip'
+  t.description = 'description'
+  t.icon = "templates/Elf64.png"
+  t.replace_parameters = true
+end
+
+project_template 'JsonFromServer' do |t|
+  t.type = :web
+  t.tags = ['Web']
+  t.location = 'templates/JsonFromServer.zip'
+  t.description = 'description'
+  t.icon = "templates/Elf64.png"
+  t.replace_parameters = true
+end
