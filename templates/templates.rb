@@ -53,3 +53,12 @@ project_template 'JsonFromServer' do |t|
   t.icon = "templates/Elf64.png"
   t.replace_parameters = true
 end
+
+project_template 'QUnitSample04' do |t|
+  t.type = :web
+  t.tags = ['Web']
+  t.location = 'templates/QUnitTestSimple04.zip'
+  t.description = 'description'
+  t.icon = "templates/Elf64.png"
+  t.replace_parameters = true
+end

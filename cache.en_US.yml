@@ -508,6 +508,18 @@ children:
   scope: null
   tags: [Web]
   type: WEB
+- !!com.aptana.scripting.model.ProjectTemplateElement
+  customProperties: {replace_parameters: true}
+  description: description
+  displayName: QUnitSample04
+  icon: templates/Elf64.png
+  id: QUnitSample04
+  location: templates/QUnitTestSimple04.zip
+  path: templates\templates.rb
+  priority: 0
+  scope: null
+  tags: [Web]
+  type: WEB
 - !!com.aptana.scripting.model.ProjectSampleElement
   category: com.aptana.projects.samples.web.category
   customProperties: null
