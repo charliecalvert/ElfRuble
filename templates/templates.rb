@@ -1,5 +1,24 @@
 require 'ruble'
 
+#ELFJS_TEMPLATES = {
+#  'Factory.js' => "Factory"  
+#} unless defined?(ELFJS_TEMPLATES)
+
+#ELFJS_TEMPLATES.each do |filename, name|
+#  filetypes = ["*.js"]  
+#  filetypes.each do |filetype|
+#    template t("%{name} Template (%{filetype})", :name => name, :filetype => filetype) do |t|
+#      t.filetype = filetype
+#      t.location = "templates/#{filename}"
+#    end
+#  end
+#end
+
+template "CSCFactory" do |t|
+  t.filetype = "*.js"
+  t.location = "templates/Factory.js"
+end
+
 template "Sample File Template" do |t|
   t.filetype = "*.txt"
   t.invoke do |context|
@@ -62,3 +81,4 @@ project_template 'QUnitSample04' do |t|
   t.icon = "templates/Elf64.png"
   t.replace_parameters = true
 end
+

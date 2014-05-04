@@ -18,3 +18,10 @@ Bootstrap Test** project. Select either one and create a new project.
 
 These projects are created from a zip file, and do not have a .git
 folder.
+
+There are also file templates, though they are not as easy to access
+as I would like. Select the directory where you want to put your file.
+Choose **File | New File**. Enter the name of the File you want to
+create and hit **next**. Don't hit **Finish**, hit **next**. Choose
+the template you want to use. Now pick **Finish**. There are several
+templates, including **Factory**.
